@@ -37,8 +37,8 @@
       <GUIDAsString>{bf2fb38b-68ca-4038-a5e9-9f3dad3a2914}</GUIDAsString>
       <GUIHandleOnlyLeftMouseButton>False</GUIHandleOnlyLeftMouseButton>
       <GameFPS>40</GameFPS>
-      <GameFileName>BASS</GameFileName>
-      <GameName>BASS</GameName>
+      <GameFileName>InvAnimate</GameFileName>
+      <GameName xml:space="preserve">InvAnimate Demo</GameName>
       <GameTextEncoding>utf-8</GameTextEncoding>
       <GameTextLanguage>en_US</GameTextLanguage>
       <Genre>Adventure</Genre>
@@ -57,7 +57,7 @@
       <RoomTransition>FadeOutAndIn</RoomTransition>
       <RunGameLoopsWhileDialogOptionsDisplayed>True</RunGameLoopsWhileDialogOptionsDisplayed>
       <SaveGameFileExtension />
-      <SaveGameFolderName>BASS</SaveGameFolderName>
+      <SaveGameFolderName xml:space="preserve">InvAnimate Demo</SaveGameFolderName>
       <SaveScreenshots>False</SaveScreenshots>
       <ScaleCharacterSpriteOffsets>True</ScaleCharacterSpriteOffsets>
       <ScriptAPIVersion>Highest</ScriptAPIVersion>
@@ -1901,7 +1901,12 @@
             <Name>iFan</Name>
             <OnAnyClick />
             <PlayerStartsWithItem>True</PlayerStartsWithItem>
-            <Properties />
+            <Properties>
+              <CustomProperty>
+                <Name>InstantUse</Name>
+                <Value>1</Value>
+              </CustomProperty>
+            </Properties>
             <ScriptModule>GlobalScript.asc</ScriptModule>
             <Interactions Version="4.0.0.24">
               <Event Index="1" Name="Look_at" UID="Curs0002">iFan_Look</Event>
